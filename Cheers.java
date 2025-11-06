@@ -7,7 +7,7 @@ public class Cheers {
                 for (int i = 0; i < word.length(); i++) {
                         for (int j = 0; j < x.length(); j++) {
                                 if (word.charAt(i) != x.charAt(j)) {
-                                        aOrAn = "a ";
+                                        aOrAn = "a  ";
                                 } else {
                                         aOrAn = "an ";
                                         break;
