@@ -3,7 +3,7 @@ public class Cheers {
                 String word = args[0];
                 int runTimes = Integer.parseInt(args[1]);
                 String aOrAn = "";
-                String x = "AEFHILMNORSX";
+                String x = "AaEeFfHhIiLlMmNnOoRrSsXx";
                 for (int i = 0; i < word.length(); i++) {
                         for (int j = 0; j < x.length(); j++) {
                                 if (word.charAt(i) != x.charAt(j)) {
@@ -13,7 +13,7 @@ public class Cheers {
                                         break;
                                 }
                         }
-                        System.out.println("Give me " + aOrAn + word.charAt(i) + " : " + word.charAt(i) + "!");
+                        System.out.println("Give me " + aOrAn + word.charAt(i) + ": " + word.charAt(i) + "!");
                 }
                 System.out.println("What does that spell?");
                 int a = 0;
