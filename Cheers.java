@@ -18,7 +18,7 @@ public class Cheers {
                 System.out.println("What does that spell?");
                 int a = 0;
                 while (a < runTimes) {
-                        System.out.println(word + "!!!");
+                        System.out.println(word.toUpperCase() + "!!!");
                         a++;
                 }
         }
