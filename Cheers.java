@@ -13,7 +13,8 @@ public class Cheers {
                                         break;
                                 }
                         }
-                        System.out.println("Give me " + aOrAn + word.charAt(i) + ": " + word.charAt(i) + "!");
+                        String bigLetter = (word.charAt(i) + "").toUpperCase();
+                        System.out.println("Give me " + aOrAn + bigLetter + ": " + bigLetter + "!");
                 }
                 System.out.println("What does that spell?");
                 int a = 0;
